@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/framelayout_bulb"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:visibility="gone">
+    <ImageView
+        android:id="@+id/imageview_bulb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClick_BulbCrossFade"
+        android:src="@drawable/bulb_cross_fade"/>
+    <com.example.administrator.surperflashlight.widget.HideTextView
+        android:id="@+id/textview_hide_bulb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="电灯泡：点击变亮"
+        android:textSize="20sp"/>
+</FrameLayout>
